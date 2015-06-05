@@ -1,0 +1,52 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+.padded {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.bg-red {
+  background: $red;
+  color: white;
+}
+.bg-blue {
+  background: $blue;
+  color: white;
+}
+.bg-yellow {
+  background: $yellow;
+  color: white;
+}
+.bg-orange {
+  background: $orange;
+  color: white;
+}
+.bg-green {
+  background: $green;
+  color: white;
+}
+.bg-purple {
+  background: $purple;
+  color: white;
+}
+.bg-grey {
+  background: $gray-lighter;
+  color: $gray-darker;
+}
+.bg-white {
+  background: white;
+  color: $gray-darker;
+}
+.card {
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 2px $gray;
+  border-radius: 4px;
+  margin: 20px 20px;
+  text-align: center;
+  img {
+    width:100px;
+  }
+}

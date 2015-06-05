@@ -1,0 +1,73 @@
+---
+title: Le Wagon Middleman boilerplate
+---
+
+<!-- Banner -->
+  <div id=banner>
+      <h1>moneypenny</h1>
+      <h2>Do only what you like.</h2>
+      <h2>Moneypenny handles everything else</h2>
+      <%= link_to "Get started", "#", class: "btn btn-danger btn-lg" %>
+  </div>
+
+  <!-- Features -->
+  <div class="bg-grey padded">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card">
+            <%= image_tag "business_lunch.png"%>
+            <h3>Need a place for an important business lunch?</h3>
+            <p>moneypenny sends you ideas that fit your needs!</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card">
+            <%= image_tag "passport.png"%>
+            <h3>Lost your passport, need to get a new one?</h3>
+            <p>moneypenny facilitates all the paperwork for you!</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card">
+            <%= image_tag "apartment.png"%>
+            <h3>Buying a new apartment, a lot of admin stuff?</h3>
+            <p>moneypenny saves your time by doing it for you!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <div class="text-center padded bg-white">
+    <h2>Get news from moneypenny</h2>
+    <p>Leave us your email and get moneypenny news</p>
+    <form class="form-inline">
+      <input type="email" placeholder="roger@email.com" class="form-control">
+      <input type="subscribe" value="Register" class="btn btn-success">
+    </form>
+  </div>
+
+  <!-- Map -->
+  <div id="map" style="width: 100%; height: 400px;"></div>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}] // TODO: replace [] by array from https://snazzymaps.com/
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+    });
+    </script>
