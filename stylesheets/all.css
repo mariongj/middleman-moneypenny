@@ -9036,46 +9036,50 @@ button.close {
   padding-bottom: 5em; }
 
 /* line 11, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+.padded-top {
+  padding-top: 300px; }
+
+/* line 14, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
   background: #EE5F5B;
   color: white; }
 
-/* line 15, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 18, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: #469AE0;
   color: white; }
 
-/* line 19, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 22, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #FDB631;
   color: white; }
 
-/* line 23, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 26, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E67E22;
   color: white; }
 
-/* line 27, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 30, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 31, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 34, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
 
-/* line 35, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 38, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-grey {
   background: #eeeeee;
   color: #222222; }
 
-/* line 39, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 42, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .bg-white {
   background: white;
   color: #222222; }
 
-/* line 43, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+/* line 46, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
 .card {
   background: white;
   padding: 30px;
@@ -9083,7 +9087,7 @@ button.close {
   border-radius: 4px;
   margin: 20px 20px;
   text-align: center; }
-  /* line 50, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
+  /* line 53, /Users/Marion/code/mariongj/middleman-moneypenny/source/stylesheets/layout/_utilities.css.scss */
   .card img {
     width: 100px; }
 
