@@ -1,13 +1,19 @@
 // Your footer style
 
 #footer {
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
   background-color: $gray-dark;
   color: $yellow;
   .fa {
     font-size: 30px;
+  &:hover {
+    color: $red;
+    }
   }
-  .fa :hover {
-    color: white;
+  .list-space {
+    letter-spacing: 6px;
   }
 }
